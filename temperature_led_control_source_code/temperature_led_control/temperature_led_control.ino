@@ -2,7 +2,7 @@
 #define ADC_VREF_mV    5000.0 // in millivolt
 #define ADC_RESOLUTION 1024.0
 #define PIN_LM35 A0
-#define PIN_LED 2
+#define PIN_LED 13
 
 const int thresholdTemperature = 30; // Define threshold temperature
 
