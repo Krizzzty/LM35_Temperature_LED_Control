@@ -49,5 +49,5 @@ void blinkLed() {
   static bool ledState = HIGH; // Variable to track LED state
   ledState = !ledState; // Toggle LED state
   digitalWrite(PIN_LED, ledState); // Set LED state
-  Serial.println("Blinking"); // Print message indicating LED blinking
+  //Serial.println("Blinking"); // Print message indicating LED blinking
 }
